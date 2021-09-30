@@ -38,7 +38,7 @@ import darkriftpy
 RND_POOL = 20
 
 MIN_INT32 = (2 ** 31) * -1
-MAX_INT32 = 2 ** 31 - 2
+MAX_INT32 = 2 ** 31 - 1
 
 
 async def process_message(message: darkriftpy.DarkriftMessage) -> None:
@@ -175,7 +175,7 @@ from darkriftpy.types import int32
 
 
 MIN_INT32 = (2 ** 31) * -1
-MAX_INT32 = 2 ** 31 - 2
+MAX_INT32 = 2 ** 31 - 1
 
 
 class ChooseMessage(darkriftpy.Message, tag=1):
@@ -321,7 +321,7 @@ from darkriftpy.types import int32
 RND_POOL = 20
 
 MIN_INT32 = (2 ** 31) * -1
-MAX_INT32 = 2 ** 31 - 2
+MAX_INT32 = 2 ** 31 - 1
 
 
 messages = darkriftpy.MessageContainer()
